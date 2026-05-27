@@ -1,28 +1,40 @@
-# AI Scam Fraud Detection Platform
+# 🛡️ AI Scam Fraud Detection Platform
 
-AI-powered cybersecurity platform designed to detect scam websites, phishing URLs, and fraudulent SMS messages using Machine Learning and real-time analysis.
+An AI-powered cybersecurity platform that detects scam websites, phishing URLs, and fraudulent SMS messages using Machine Learning and real-time analysis.
 
-## Live Demo
-https://YOUR-VERCEL-LINK.vercel.app
+## 🚀 Live Demo
 
-## GitHub Repository
-https://github.com/Amanroy7/Ai-fraud-detection-platform
+Frontend:
+https://ai-fraud-detection-platform-tan.vercel.app/
 
-## Features
+## 📌 Features
 
-- Scam URL Detection
-- SMS Fraud Detection
-- Risk Classification
-- Real-time Analysis
-- User-Friendly Dashboard
-- Responsive UI
+- 🔍 Scam URL Detection
+- 📩 SMS Fraud Detection
+- 🤖 Machine Learning Based Analysis
+- ⚡ Real-Time Risk Assessment
+- 📊 Interactive Dashboard
+- 🌐 Responsive Web Interface
 
-## Tech Stack
+## 🏗️ Project Architecture
+
+Frontend (React.js)
+        │
+        ▼
+Backend API (FastAPI)
+        │
+        ▼
+Machine Learning Model
+        │
+        ▼
+Fraud Prediction Result
+
+## 🛠️ Tech Stack
 
 ### Frontend
 - React.js
-- CSS
 - JavaScript
+- CSS
 
 ### Backend
 - Python
@@ -34,12 +46,11 @@ https://github.com/Amanroy7/Ai-fraud-detection-platform
 - NumPy
 
 ### Deployment
-- Vercel (Frontend)
-- Render (Backend)
+- Vercel
+- Render
 
-## Project Structure
+## 📂 Project Structure
 
-```
 Ai-fraud-detection-platform/
 │
 ├── Backend/
@@ -53,26 +64,42 @@ Ai-fraud-detection-platform/
 │   └── scam_dataset.csv
 │
 └── README.md
-```
 
-## Screenshots
+## ⚙️ Installation
 
-Add screenshots of:
-- Home Page
-- URL Scanner
-- SMS Detector
-- Prediction Results
+### Clone Repository
 
-## Future Enhancements
+git clone https://github.com/Amanroy7/Ai-fraud-detection-platform.git
+
+### Backend Setup
+
+cd Backend
+
+pip install -r requirements.txt
+
+python app.py
+
+### Frontend Setup
+
+cd Frontend/frontend-app
+
+npm install
+
+npm start
+
+## 🎯 Future Enhancements
 
 - User Authentication
 - Scan History
 - PDF Report Generation
 - AI Chatbot Integration
-- Advanced Threat Intelligence
+- Threat Intelligence Dashboard
 
-## Author
+## 👨‍💻 Author
 
 Aman Kumar
 
-Computer Science Engineering (Data Science)
+B.Tech Computer Science Engineering (Data Science)
+
+GitHub:
+https://github.com/Amanroy7
