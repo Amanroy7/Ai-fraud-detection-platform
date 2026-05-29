@@ -264,3 +264,28 @@ def get_history():
             })
 
     return scans
+
+@app.get("/scan_sms")
+def scan_sms(message: str):
+
+    sms_vector = vectorizer.transform([message])
+
+    prediction = model.predict(sms_vector)
+
+    probability = model.predict_proba(sms_vector)
+
+    confidence = max(probability[0]) * 100
+
+    if confidence > 80:
+        risk_level = "Low"
+    elif confidence > 50:
+        risk_level = "Medium"
+    else:
+        risk_level = "High"
+
+    return {
+        "message": message,
+        "prediction": prediction[0],
+        "confidence": f"{confidence:.2f}%",
+        "risk_level": risk_level
+    }
