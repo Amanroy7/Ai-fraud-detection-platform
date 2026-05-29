@@ -44,7 +44,7 @@ function App() {
       await new Promise(resolve => setTimeout(resolve, 2000));
 
       const response = await fetch(
-        `http://127.0.0.1:8000/scan?url=${url}`
+        `https://ai-fraud-backend.onrender.com/scan?url=${url}`
       );
 
       const data = await response.json();
@@ -74,7 +74,7 @@ function App() {
       setLoading(true);
 
       const response = await fetch(
-        `http://127.0.0.1:8000/scan_sms?message=${sms}`
+        `https://ai-fraud-backend.onrender.com/scan_sms?message=${sms}`
       );
 
       const data = await response.json();
