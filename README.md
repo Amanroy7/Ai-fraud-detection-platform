@@ -3,8 +3,8 @@
 AI-powered cybersecurity platform designed to detect scam websites, phishing URLs, and fraudulent SMS messages using Machine Learning and real-time analysis.
 
 ## Live Demo
-https://YOUR-VERCEL-LINK.vercel.app
-
+[https://YOUR-VERCEL-LINK.vercel.app
+](https://ai-fraud-detection-platform-tan.vercel.app/)
 ## GitHub Repository
 https://github.com/Amanroy7/Ai-fraud-detection-platform
 
